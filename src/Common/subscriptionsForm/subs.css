@@ -1,0 +1,11 @@
+.subscriptionForm_inputWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.subs-heading{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+}
