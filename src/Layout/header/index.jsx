@@ -1,17 +1,24 @@
 import Dropdown from "../../Common/Dropdown/index.jsx"
 import Button from "../../Common/Button/index.jsx"
 import "./Header.css"
+import  Netflix from "../../assets/Netflix_logo.svg"
 
 
+const langOption = [{
+    label:"english",
+    value:"eng"
+},{
+    label:"Hindi",
+    value: "hindi"
+}];
 const Header =()=>{
-
     const onClickSignIn=()=>{
         alert("signIn");
     };
     return(
         <div className="hero-header-wrapper">
-            <image/>
-            <Dropdown/>
+            <img src={Netflix}/>
+            <Dropdown option={langOption}/>
             <Button label={"Sign In"} onClick ={onClickSignIn}/>
         </div>
     )
