@@ -1,3 +1,15 @@
 .hero-header-wrapper{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 100px;
+}
+.hero-header-wrapper img{
+    height: 40px;
+    width: 140px;
+}
+
+.header-right-site{
+    display: flex;
+    gap: 10px;
 }

@@ -18,8 +18,10 @@ const Header =()=>{
     return(
         <div className="hero-header-wrapper">
             <img src={Netflix}/>
+            <div className="header-right-site">
             <Dropdown option={langOption}/>
             <Button label={"Sign In"} onClick ={onClickSignIn}/>
+            </div>
         </div>
     )
 }
