@@ -5,7 +5,7 @@ import  Netflix from "../../assets/Netflix_logo.svg"
 
 
 const langOption = [{
-    label:"english",
+    label:"English",
     value:"eng"
 },{
     label:"Hindi",

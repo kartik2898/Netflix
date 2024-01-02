@@ -1,5 +1,4 @@
 import { useState } from "react"
-import Button from "../Button/index.jsx"
 import "./subs.css"
 import ProtoTypes from "prop-types"
 
@@ -14,10 +13,13 @@ const SubscriptionForms = (props)=>{
     }
     return(
         <div className="subscriptionForm-wrapper">
-            <p className="subs-heading">{text}</p>
+            <h3 className="subs-heading">{text}</h3>
             <div className="subscriptionForm_inputWrapper">
-            <input onChange={onChangeEmail}/>
-            <Button label="Get Started >" />
+                <div className="subs-inpt-container">
+                    <input onChange={onChangeEmail} className="sub-form-input" id="email"/>
+                    <label className="subs-form-inpt-text" htmlFor="email">Email addres</label>
+                </div>
+                <button className="sub-btn">Get Started {">"}</button>
             </div>
         </div>
     )

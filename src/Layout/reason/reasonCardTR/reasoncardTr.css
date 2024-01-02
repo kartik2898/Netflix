@@ -1,0 +1,32 @@
+.reasoncardTR-container-wrapper{
+    background-color: black;
+    border-top: 8px solid rgba(128, 128, 128, 0.194);
+    padding: 72px 0;
+
+}
+.ReasoncardTR-Wrapper{
+    display: flex;
+    margin: 0 40px;
+}
+.reason-textR-container{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    padding: 0 0 0 6px;
+}
+.RC-TR-Text-heading{
+    margin: 0;
+    font-size: 50px;
+    font-weight: 700;
+}
+.RC-TR-pText{
+    font-size: 25px;
+}
+.reasonR-img-container{
+    padding: 0 6px 0 0;
+}
+.reasonR-img-container img{
+    width: 470px;
+    height: 355px
+}
