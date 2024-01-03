@@ -1,0 +1,24 @@
+.faqCard_wrapper{
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 800px;
+}
+.faqCardHeader{
+    background-color: #2d2d2d;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.faqCardHeader:hover{
+    background-color: #414141;
+}
+.faqTitle{
+    font-size: 24px;
+}
+.feqDesc{
+    font-size: 24px;
+    margin-top: 1px;
+    background-color: #2d2d2d;
+    padding: 16px 20px;
+}
