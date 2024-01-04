@@ -3,6 +3,7 @@ import { useState } from "react"
 import { faqsData } from "./data"
 import FaqCard from "../faqCard/faqCard";
 import './faqs.css'
+import SubscriptionForms from "../../Common/subscriptionsForm";
 
 function FAQs(){
 
@@ -30,8 +31,8 @@ function FAQs(){
                          />
                     ))
                 }
-            </div>
-            
+            </div>   
+            <SubscriptionForms text="Ready to watch? Enter your email to create or restart your membership."/>
         </div>
     )
 }

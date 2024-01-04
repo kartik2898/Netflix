@@ -9,8 +9,8 @@ function FaqCard({title,desc,onClick,isOpen}){
             <div onClick={onClick} className="faqCardHeader">
                 <p className="faqTitle">{title}</p>
 
-            {isOpen && <IoMdClose fontSize={40}/>}
-            {!isOpen && <IoMdAdd  fontSize={40}/>}
+                {isOpen && <IoMdClose fontSize={40}/>}
+                {!isOpen && <IoMdAdd  fontSize={40}/>}
             </div>
             {isOpen && <div className="feqDesc">{desc}</div>}
         </div>

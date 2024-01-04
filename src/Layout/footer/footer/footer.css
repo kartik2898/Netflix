@@ -1,0 +1,11 @@
+.data-wrapper{
+    /* display: flex;
+    flex-direction: column; */
+    width: fit-content;
+    width: 33vw;
+    max-width: 800px
+}
+.data-ques-list-wrapper{
+    display: flex;
+    justify-content: center;
+}

@@ -1,5 +1,7 @@
 .subscriptionForm-wrapper{
+    
     padding: 0 102px;
+    
 }
 .subscriptionForm_inputWrapper{
     display: flex;
@@ -7,6 +9,7 @@
     align-items: center;
     gap: 40px;
     margin: 0 250px;
+    
 }
 .subs-heading{
     text-align: center;

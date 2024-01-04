@@ -1,0 +1,18 @@
+.data-ques-list-container{
+  
+}
+.data-ques-list{
+    /* display: flex; */
+    /* flex-direction: column; */
+    margin: 0;
+    padding: 0px;
+    width: 33vw; 
+    text-align: left;
+    float: left;
+}
+.ques-list{
+  list-style: none;
+  display: inline-block;
+  padding: 0;
+  position: relative;
+}

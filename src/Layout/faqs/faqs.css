@@ -4,9 +4,12 @@
     background-color: black;
     color: white;
     border-top: 8px solid rgba(128, 128, 128, 0.194);
+    /* width: 100vw; */
+   
+    
 }
 .faqs_heading{
-    font-size: 32px;
+    font-size: 50px;
     text-align: center;
 }
 .faqs_list{
