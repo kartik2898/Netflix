@@ -4,20 +4,29 @@
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../../assets/bgi.jpeg");
     /* background-repeat: no-repeat; */
     width:auto;
-    
+    padding: 0 5rem;
+}
+.banner-content-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 9rem 0;
+    max-width: calc(100%-3rem);
 }
 .banner-content-wrapper{
     text-align: center;
     padding: 0 10%;
-    margin-top: 80px;
+    /* margin-top: 80px; */
 }
 .banner-heading{
     font-size: 50px;
-    margin: 0;
+    /* margin: 0; */
     /* font-weight: 900; */
 
 }
 .banner-subheading{
     font-size: 25px;
     font-weight: 400;
+    padding: 0;
+    margin: 0%;
 }

@@ -7,11 +7,13 @@ function Banner(){
         
         <div className="Hero-banner-wrapper">
             <Header/>
-            <div className="banner-content-wrapper">
-                <h1 className="banner-heading">Laughter. Tears. Thrills. Find it all on Netflix.</h1>  
-                <p className="banner-subheading">Endless entertainment starts at just ₹149. Cancel anytime.</p>
+            <div className="banner-content-container">
+                <div className="banner-content-wrapper">
+                    <h1 className="banner-heading">Laughter. Tears. Thrills. Find it all on Netflix.</h1>  
+                    <p className="banner-subheading">Endless entertainment starts at just ₹149. Cancel anytime.</p>
+                </div>
+                <SubscriptionForms text="Ready to watch? Enter your email to create or restart your membership."/>
             </div>
-            <SubscriptionForms text="Ready to watch? Enter your email to create or restart your membership."/>
         </div>
     )
 }
