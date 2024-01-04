@@ -1,7 +1,16 @@
 
 import "./footer.css"
 import FooterData from "../footerDataList"
+import Dropdown from "../../../Common/Dropdown";
 function Footer(){
+
+    const langOption = [{
+        label:"English",
+        value:"eng"
+    },{
+        label:"Hindi",
+        value: "hindi"
+    }];
 
     const quesdata = ["FAQ","Help Centre","Account","Media Centre","Investor Relations","Jobs","Ways to Watch",
     "Terms of Use","Privacy,Cookie Preferences","Corporate Information","Contact Us","Speed Test",
@@ -20,6 +29,13 @@ function Footer(){
                         <FooterData quesData={ques} key={indx} />
                     ))
                 }
+            </div>
+            <div className="drop-down-con">
+                <Dropdown option={langOption}/>
+            </div>
+            
+            <div className="tagName">
+                <p>Netflix India</p>
             </div>
         </div>
     );

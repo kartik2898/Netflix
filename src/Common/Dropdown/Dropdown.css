@@ -1,8 +1,12 @@
+.drop-down-icon{
+    position: absolute;
+    margin: 0.25rem 0 0 0.75rem;
+}
 .cmn-dropdown{
-    padding: 10px 18px;
+    text-align: center;
+    width: 8rem;
+    height: 2rem;
     font-size: 15px;
     background-color: black;
-}
-.common-dropdown-wrapper{
-
+    border-radius: 0.2rem;
 }

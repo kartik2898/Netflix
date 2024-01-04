@@ -1,18 +1,9 @@
-.data-ques-list-container{
-  
+.data-ques-list-container a{
+    color: white;
+    text-decoration: underline;
+    text-decoration: none;
 }
-.data-ques-list{
-    /* display: flex; */
-    /* flex-direction: column; */
-    margin: 0;
-    padding: 0px;
-    width: 33vw; 
-    text-align: left;
-    float: left;
+.data-ques-list-container a:hover{
+    color: white;
 }
-.ques-list{
-  list-style: none;
-  display: inline-block;
-  padding: 0;
-  position: relative;
-}
+
