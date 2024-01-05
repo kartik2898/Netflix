@@ -16,8 +16,8 @@ const SubscriptionForms = (props)=>{
             <h3 className="subs-heading">{text}</h3>
             <div className="subscriptionForm_inputWrapper">
                 <div className="subs-inpt-container">
-                    <input onChange={onChangeEmail} className="sub-form-input" id="email"/>
-                    <label className="subs-form-inpt-text" htmlFor="email">Email addres</label>
+                    <input onChange={onChangeEmail} className="sub-form-input" id="email" placeholder="Email addres"/>
+                    {/* <label className="subs-form-inpt-text" htmlFor="email">Email addres</label> */}
                 </div>
                 <button className="sub-btn">Get Started {">"}</button>
             </div>

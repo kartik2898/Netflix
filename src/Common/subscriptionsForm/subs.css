@@ -6,26 +6,27 @@
 .subscriptionForm_inputWrapper{
     display: flex;
     justify-content: center;
+    gap: 10px;
     align-items: center;
-    gap: 40px;
-    margin: 0 6rem;
+    /* margin: 0 8rem; */
     
 }
 .subs-heading{
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 400;
 }
 
 .subs-inpt-container{  
     position: relative;
-    flex: 1; 
+    /* flex: 1;  */
 }
 .sub-form-input{
     border: 1px solid white;
     border-radius: 4px;
     padding: 10px 15px;
-    width: 100%; 
+    /* width: 100%;  */
+    width: 23rem;
     padding-top: 30px;
     background-color: rgba(0, 0, 0, 0.6);
 }

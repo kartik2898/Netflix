@@ -2,14 +2,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 24px 100px;
+    padding: 1.5rem 4.5rem;
 }
 .hero-header-wrapper img{
     height: 40px;
-    width: 140px;
+    width: 150px;
 }
 
 .header-right-site{
     display: flex;
-    gap: 2rem;
+    gap: 1.5rem;
 }
