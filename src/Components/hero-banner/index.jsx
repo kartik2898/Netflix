@@ -1,5 +1,5 @@
 import "./banner.css"
-import Header from "../header/index.jsx"
+import Header from "../Header/index.jsx"
 import SubscriptionForms from "../../Common/subscriptionsForm/index.jsx"
 
 function Banner(){

@@ -1,7 +1,7 @@
 
 import { useState } from "react"
 import { faqsData } from "./data"
-import FaqCard from "../faqCard/faqCard";
+import FaqCard from "../FaqCard/faqCard";
 import './faqs.css'
 import SubscriptionForms from "../../Common/subscriptionsForm";
 

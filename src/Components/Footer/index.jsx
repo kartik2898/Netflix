@@ -1,7 +1,6 @@
 
 import "./footer.css"
-import FooterData from "../footerDataList"
-import Dropdown from "../../../Common/Dropdown";
+import Dropdown from "../../Common/Dropdown";
 function Footer(){
 
     const langOption = [{
@@ -26,7 +25,9 @@ function Footer(){
             <div className="data-ques-list-wrapper">
                 {
                     quesdata.map((ques,indx)=>(
-                        <FooterData quesData={ques} key={indx} />
+                        <div className="data-ques-list-container" key={indx}>
+                            <a href="">{ques}</a>
+                        </div>
                     ))
                 }
             </div>
